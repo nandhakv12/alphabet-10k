@@ -309,7 +309,7 @@ The interface was designed for actual analysts, not demos:
 - **Persistent chat history** — full conversation context maintained
 
 **Deployed on:** Streamlit Community Cloud (free tier)
-**Live at:** [https://tinyurl.com/bdfrd3jx]
+**Live at:** [(https://huggingface.co/spaces/nandhak12/alphabet-10k-analyst)]
 
 ---
 
