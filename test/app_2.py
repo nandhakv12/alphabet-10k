@@ -242,7 +242,9 @@ code {
 # ─────────────────────────────────────────────────────────────
 # CONSTANTS
 # ─────────────────────────────────────────────────────────────
-CHROMA_PATH     = "./alphabet_10k_db"
+import os
+BASE_DIR    = os.path.dirname(os.path.abspath(__file__))
+CHROMA_PATH = os.path.join(BASE_DIR, "alphabet_10k_db")
 COLLECTION_NAME = "langchain"
 MODEL           = "claude-opus-4-5"
 
